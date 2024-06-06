@@ -1,0 +1,44 @@
+.h1{
+    color: fuchsia;
+    background-color: darkblue;
+}
+.title{
+    color: fuchsia;
+    background-color:  darkblue;
+}
+
+.section {
+    margin-bottom: 20px;
+    color: deepskyblue;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toggle {
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+.content {
+    display: none;
+    padding: 20px;
+    border: 2px solid #10d43a;
+    background-color: #beaa27;
+    color: yellow;
+    align-items: flex;
+    
+    
+      
+}
+
+.content.active {
+    display: inline-block;
+    flex-direction: right;
+    
+}
+.right .content{
+    float: right;
+    margin-top: 0%;
+    bottom: 0%;
+}
