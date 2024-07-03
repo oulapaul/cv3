@@ -1,20 +1,17 @@
-.h1{
-    color: fuchsia;
-    background-color: darkblue;
-}
-.title{
-    color: fuchsia;
-    background-color:  darkblue;
-}
+
 
 .section {
     margin-bottom: 20px;
-    color: deepskyblue;
+    color: rgb(255, 0, 34);
     text-transform: uppercase;
     display: flex;
     flex-wrap: wrap;
 }
-
+h1{
+    color: darkviolet;
+    cursor: pointer;
+    background-color: rgb(236, 12, 12);
+}
 .toggle {
     cursor: pointer;
     font-weight: lighter;
@@ -24,9 +21,10 @@
     display: none;
     padding: 20px;
     border: 2px solid #10d43a;
-    background-color: #beaa27;
-    color: yellow;
+    background-color: blue;
+    color: rgb(7, 255, 60);
     align-items: flex;
+    cursor: pointer;
     
     
       
@@ -41,4 +39,9 @@
     float: right;
     margin-top: 0%;
     bottom: 0%;
+}
+footer{
+    color: blue;
+    background-color: #10d43a;
+    cursor: pointer;
 }
